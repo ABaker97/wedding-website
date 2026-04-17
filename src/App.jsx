@@ -238,8 +238,15 @@ export default function WeddingWebsitePreview() {
           color: rgba(162, 148, 133, 0.78);
           font-size: clamp(1.7rem, 4vw, 3.1rem);
           line-height: 1.35;
-          margin: 6px 0 18px;
+          margin: 6px 0 8px;
           font-weight: 700;
+        }
+        .arabic-subline {
+          color: rgba(162, 148, 133, 0.78);
+          font-family: "Amiri", serif;
+          font-size: clamp(1.15rem, 2.4vw, 1.9rem);
+          line-height: 1.5;
+          margin: 0 0 18px;
         }
 
         .family-line {
@@ -596,7 +603,7 @@ export default function WeddingWebsitePreview() {
         <div className="corner-lily bottom-left">❀</div>
 
         <header className="topbar">
-          <div className="brand">A & L</div>
+          <div className="brand">L & A</div>
           <nav className="nav">
             <a href="#countdown">العد التنازلي</a>
             <a href="#location">الموقع</a>
@@ -617,32 +624,33 @@ export default function WeddingWebsitePreview() {
                 )}
 
                 <div className="arabic-calligraphy">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
-                <p className="family-line">يتشرف</p>
+                <div className="arabic-subline">وَجَعَلَ بَيْنَكُم مَّوَدَّةً وَرَحْمَةً</div>
+                <p className="family-line">يسرّ أسرتي</p>
 
                 <div className="parents-row">
-                  <div className="parent-block">
-                    <small>السيد</small>
-                    عبد الشكور<br />عبد الرحيم قشقري
-                  </div>
-                  <div className="parent-separator">و</div>
                   <div className="parent-block">
                     <small>الدكتور</small>
                     جهاد جمال أبو بكر
                   </div>
+                  <div className="parent-separator">و</div>
+                  <div className="parent-block">
+                    <small>السيد</small>
+                    عبد الشكور<br />عبد الرحيم قشقري
+                  </div>
                 </div>
 
-                <p className="invite-copy">بدعوتكم لحضور حفل زفاف </p>
+                <p className="invite-copy">أن يتشرفا بدعوتكم لحضور حفل زفاف ابنيهما</p>
 
                 <div className="names-row">
                   <div className="name-stack">
-                    <h1>لمياء<span className="sub-last">قشقري</span></h1>
+                    <h1>أحمد<span className="sub-last">أبو بكر</span></h1>
                   </div>
                   <div className="rings-wrap">
                     <div className="rings">◌◌</div>
                     <div className="ampersand">و</div>
                   </div>
                   <div className="name-stack">
-                    <h1>أحمد<span className="sub-last">أبو بكر</span></h1>
+                    <h1>لمياء<span className="sub-last">قشقري</span></h1>
                   </div>
                 </div>
 
