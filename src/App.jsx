@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function WeddingWebsitePreview() {
   const weddingDate = new Date("2026-07-17T18:00:00");
