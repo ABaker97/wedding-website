@@ -617,7 +617,7 @@ export default function WeddingWebsitePreview() {
                 )}
 
                 <div className="arabic-calligraphy">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</div>
-                <p className="family-line">يسرّ أسرتي</p>
+                <p className="family-line">يتشرف</p>
 
                 <div className="parents-row">
                   <div className="parent-block">
@@ -631,7 +631,7 @@ export default function WeddingWebsitePreview() {
                   </div>
                 </div>
 
-                <p className="invite-copy">أن يتشرفا بدعوتكم لحضور حفل زفاف ابنيهما</p>
+                <p className="invite-copy">بدعوتكم لحضور حفل زفاف </p>
 
                 <div className="names-row">
                   <div className="name-stack">
